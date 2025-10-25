@@ -145,4 +145,5 @@ This keeps call sites clean while preserving the root cause for logging/diagnost
 
 ## License
 MIT; see `LICENSE`
+
 Created by Jonas Lilletvedt

@@ -21,7 +21,7 @@ Designed for small projects that use plain SQL without heavy ORM frameworks.
 ## Quikstart
 `tinyjdbc` is a single Java file; no setup and no dependencies.
 
-Just copy [`Sql.java`](tinydjdbc/Sql.java) into your project (for example, under `src/main/java/your/package/`).
+Just copy [`Sql.java`](tinyjdbc/Sql.java) into your project (for example, under `src/main/java/your/package/`).
 Then import and use it:
 ```java
 import your.package.Sql;

@@ -138,6 +138,11 @@ public class AccountRepo {
 
 This demonstrates how the `Sql` helper keeps the repository classes concise, type-safe and clean, while allowing you to write plain SQL with full control.
 
-## About
+## Error Handling
 
-`tinyjdbc` was originally built as part of my `Bankers` project, but extracted into a standalone, lightweight reusable helper for SQL operations in Java.
+All SQL errors are wrapped in a runtime `DbException` that contains the original `SQLException` as a cause.
+This keeps call sites clean while preserving the root cause for logging/diagnostics.
+
+## License
+MIT; see `LICENSE`
+Created by Jonas Lilletvedt
